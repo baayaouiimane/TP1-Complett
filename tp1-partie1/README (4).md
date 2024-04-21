@@ -1,31 +1,44 @@
 # TP1/partie1
 Vocation principale:
-Dans cette partie on va effectuer l’injection des dépendances par  une instanciation statique et  une instanciation dynamique.
-D’abord on a effectué une création d’un package dao et dans ce dernier on a une interface IDao qui contient une fonction getData () qu’elle doit être implémentée par toutes les classes qui implémentent cette interface.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/08c36ffa-54aa-41ce-8ad5-1fc1d9dfd139)
-Puis on a créé la classe DaoImpl qui implémente l’interface IDao dont on a se connecter à la base de données pour récupérer la température.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/c11331e8-0441-4606-aff3-4fb418e29446)
+Dans cette partie on effectuer  l’injection des dépendances  par instanciation statique et instanciation dynamique.
+D’abords on a créé un package dao et dans ce dernier on a une interface IDao qui contient une fonction getData () qu’elle doit être implémente par toutes les classes qui implémentent cette interface.
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/2dbe974a-20b3-4078-a46f-2ac3e8865cba)
+Puis on a créé la classe DaoImpl qui implémente l’interface IDao dont on s est connecté à la base de données pour récupérer la température.
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/4401bfc7-5f72-4dce-b1b3-9ad3c2de48c5)
 Ensuite on a créé un autre package metier et une interface IMetier qui contient la fonction calcul ().
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/4ab71809-1452-4f49-875f-a47fefd29c91)
-Et dans ce package on a une classe MetierImpl qui représente une partie de la logique métier de l'application qui dépend d'un objet qui implémente l'interface IDao. Cette dépendance est injectée dans la classe à l'aide d'une méthode setter, permettant ainsi de remplacer facilement l'implémentation de IDao sans modifier le code de MetierImpl.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/e374bad1-aa8d-479e-bcc0-2983c159f9da)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/c6b6e2f7-5b65-4fb7-8269-cad9c41533e6)
+Et dans ce package on a une classe MetierImpl qui représente une partie de la logique métier de l'application qui dépend d'un objet qui implémente l'interface IDao. Cette dépendance est injectée dans la classe à l'aide d'une méthode setter, permettant ainsi de remplacer facilement l'implémentation de IDao sans modifier le code de MetierImpl:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/5252ff0f-0984-4d36-b973-7af696aa926b)
 Et pour présenter les résultats, dans le package pres on a créé une classe présentation :
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/b1150cfe-1adc-48d2-8ac3-487b35b00b4a)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/722c2aca-1aaa-4c25-b507-eec8637c6a97)
 Et pour la version capteurs on a créé dans un autre package une classe DaoImpl2 :
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/86bf6e24-88b0-4c1b-8d2d-95e0861ebb7c)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/ad2f564c-f6a2-4ea4-a235-c8ae66220b66)
 Maintenant on veut que notre application utilise cette version au lieu de l’autre. Donc on ne va rien changer dans la couche Dao et la couche metier, mais on va modifier dans la couche presentation.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/e632f277-0cb5-49e2-b864-8e825ed375f8)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/5299a5db-687e-445e-9c0a-4741dc1e9930)
 Alors si on exécute le code on aura bien la version capteurs.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/db0bf293-97ec-45ef-9b6d-be4e6e865ea1)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/24bb648f-f2f2-46da-8df1-4263c75114a9)
 Maintenant on veut que notre application soit fermée à la modification sans utiliser les Framework, mais on va utiliser l’instanciation dynamique au lieu de l’instanciation statique.
 D’abords on va créer un fichier config.txt dont on va écrire les classes qu’on a.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/8049753e-6e90-4c2b-b803-7a4ac02c0da9)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/738a7b8a-1eb3-4433-bc3f-ad67358030c4)
  Puis dans le package pres on va créer une 2eme classe presentation. Et dans cette classe on veut faire l’instanciation des classes qu’on ne connait pas son nom.
 Donc on doit lire le nom de la classe a partir du fichier config puis charger la classe au mémoire et en fin instancier la classe.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/cbb672b7-e677-4675-a1be-f9a452f8b62d)
-	Donc l’avantage de cette méthode est lorsque on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
-On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique.
-![image](https://github.com/baayaouiimane/TP1-Complet/assets/167249908/f5765938-fb98-4070-b43d-aec6dc62cdf8)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/5a9b230f-8afb-4483-b848-885563d61c24)
+	Donc l’avantage de cette méthode est lorsqu on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
+On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/f1a873f8-cfeb-4eac-b91a-6fad140caec4)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
