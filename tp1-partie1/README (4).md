@@ -1,9 +1,9 @@
 # TP1/partie1
 Vocation principale:
-Dans cette partie on effectuer  l’injection des dépendances  par instanciation statique et instanciation dynamique.
-D’abords on a créé un package dao et dans ce dernier on a une interface IDao qui contient une fonction getData () qu’elle doit être implémente par toutes les classes qui implémentent cette interface.
+Dans cette partie on  va effectuer  l’injection des dépendances  par instanciation statique et instanciation dynamique.
+D’abords on a créé un package dao et dans ce dernier on a une interface IDao qui contient une fonction getData () qu’elle doit être implémentée par toutes les classes qui implémentent cette interface.
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/2dbe974a-20b3-4078-a46f-2ac3e8865cba)
-Puis on a créé la classe DaoImpl qui implémente l’interface IDao dont on s est connecté à la base de données pour récupérer la température.
+Puis on a créé la classe DaoImpl qui implémente l’interface IDao dont on s' est connecté à la base de données pour récupérer la température.
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/4401bfc7-5f72-4dce-b1b3-9ad3c2de48c5)
 Ensuite on a créé un autre package metier et une interface IMetier qui contient la fonction calcul ().
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/c6b6e2f7-5b65-4fb7-8269-cad9c41533e6)
