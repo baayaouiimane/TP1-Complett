@@ -23,8 +23,10 @@ D’abords on va créer un fichier config.txt dont on va écrire les classes qu�
  Puis dans le package pres on va créer une 2eme classe presentation. Et dans cette classe on veut faire l’instanciation des classes qu’on ne connait pas son nom.
 Donc on doit lire le nom de la classe a partir du fichier config puis charger la classe au mémoire et en fin instancier la classe.
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/5a9b230f-8afb-4483-b848-885563d61c24)
+En executant on a la sortie suivante:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/583402c2-08b9-4463-9812-b6cfa43ad9db)
 	Donc l’avantage de cette méthode est lorsqu on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
-On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique
+On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/f1a873f8-cfeb-4eac-b91a-6fad140caec4)
 En executant on aura le resultat suivant pour la version base donnee:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/3840fc68-7a14-42d2-9301-f8c209540424)
