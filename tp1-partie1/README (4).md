@@ -28,9 +28,6 @@ En executant on a la sortie suivante:
 	Donc l’avantage de cette méthode est lorsqu on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
 On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/f1a873f8-cfeb-4eac-b91a-6fad140caec4)
-En executant on aura le resultat suivant pour la version base donnee:
-![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/3840fc68-7a14-42d2-9301-f8c209540424)
-Et pour la version web service:
 
 
 
