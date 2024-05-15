@@ -28,8 +28,14 @@ En executant on a la sortie suivante:
 	Donc l’avantage de cette méthode est lorsqu on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
 On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/22531524-5888-4878-9ca0-8e5554dee461)
-En executant le code apres l ajout de la modification dans pre2 on aura le resultat:
+En executant le code apres l'ajout de la modification dans pres2 on aura le résultat:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/0de72531-451a-456e-9252-3c1e3f5b1751)
+Cette fois ci on veut changer vers la version webservice donc on va créer une nouvelle classe nommée DaoImplVWS:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/2a64fa2a-0c42-41b5-83ac-9ac955f80d1d)
+En exécutant le code:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/04b0bc36-d084-4c3f-807d-ff7f6deb5c44)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/3f39beac-d877-4d18-93d6-cf4a7d82826b)
+
 
 
 
