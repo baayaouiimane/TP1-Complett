@@ -25,10 +25,11 @@ Donc on doit lire le nom de la classe a partir du fichier config puis charger la
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/5a9b230f-8afb-4483-b848-885563d61c24)
 En executant on a la sortie suivante:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/583402c2-08b9-4463-9812-b6cfa43ad9db)
-	Donc l’avantage de cette méthode est lorsqu on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
 On va faire la même chose avec la 2eme classe et on aura le code suivant avec la méthode dynamique:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/a70b28bb-4916-438c-9cfb-fcb6f19d465c)
-
+En executant le code apres l ajout de la modification dans pre2 on aura le resultat:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/0de72531-451a-456e-9252-3c1e3f5b1751)
+	Donc l’avantage de cette méthode est lorsqu on veut utiliser la version base de données ou la version capteurs, on ne va pas changer dans le code mais juste dans le fichier config.
 
 
 
