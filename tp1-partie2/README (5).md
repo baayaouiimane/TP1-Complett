@@ -33,9 +33,12 @@ Lorsqu’on a plusieurs beans, il faut donner a chaque bean un nom.
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/62c2b4aa-d2da-4c07-ae4a-836948f353d3)
 Puis on va utiliser la méthode Autowired et Qualifier(ici on va spécifier quel bean à utiliser).
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/cdbd3f79-b061-4075-9596-6a2ef615b4b2)
-Mais si on travaille avec le constructeur on n’aura pas ce genre de problème.
+Mais si on travaillé avec le constructeur on n’aura pas ce genre de problème.
 Et finalement on a créé un test :
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/1bc58d20-85d5-4e97-b8ec-2ba7bf9d0474)
+En exécutant le code on aura donc:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/c2e675e4-472b-4b64-9ea1-712d9ceb41d6)
+
 
 
 
