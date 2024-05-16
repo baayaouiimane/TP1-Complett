@@ -13,7 +13,12 @@ Et on a créé un nouveau fichier pour une nouvelle présentation qu’on a appe
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/1f1f52d7-4369-40b0-bc2f-a2f640b430f9)
 Et cette fois ci on veut avoir une version capteurs faut apporter une petite modification a applicationContext:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/fa5c8bde-59a0-4bc2-89bd-d9abe77eac58)
+On obtiendra la sortie suivante:
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/0227a612-e233-4696-af13-0fa4fc90ce7a)
+Et cette fois ci on veut avoir une version web service faut apporter une petite modification a applicationContext:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/afcc64d8-54c2-4d92-9fb3-4e69ce34a487)
+On obtiendra la sortie suivante:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/11c5f318-ac20-440f-aa4c-5d80c238abf4)
 Et une autre présentation :
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/f636f475-a87f-482b-a154-1239f62a713d)
 On a fait l’injection avec l’annotation Autowired :
