@@ -12,6 +12,7 @@ Et on a créé un nouveau fichier pour une nouvelle présentation qu’on a appe
  l’affichage est comme suit :
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/1f1f52d7-4369-40b0-bc2f-a2f640b430f9)
 Et cette fois ci on veut avoir une version capteurs faut apporter une petite modification a applicationContext:
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/fa5c8bde-59a0-4bc2-89bd-d9abe77eac58)
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/0227a612-e233-4696-af13-0fa4fc90ce7a)
 Et une autre présentation :
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/f636f475-a87f-482b-a154-1239f62a713d)
