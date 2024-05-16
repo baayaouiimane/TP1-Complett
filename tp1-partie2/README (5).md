@@ -2,7 +2,7 @@
 Vocation principal : 
 Dans cette partie on va faire l’injection des dépendances en utilisant les spring.
 On a crée un nouveau projet maven et dans le dossier java on va copier tous les packagent crées dans le projet précédent.
-![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/0500e772-ae6f-4d51-928e-ec6750aeb754)
+![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/333ef673-0a01-480b-bb6a-2f4d6c343e0b)
 Puis on a ajouté toutes les dépendances nécessaires dans le fichier pom.xml à partir du site.
 ![image](https://github.com/baayaouiimane/TP1-Complett/assets/167249908/130b3675-1530-4cd3-b1e7-1e77a681ea8d)
 Ensuite on a créé un fichier xml ou on a créé les beans.
